@@ -1,0 +1,94 @@
+/*Header*/
+h1 {
+	font-size: 250%;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+/*Navbar*/
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+/*About section*/
+.about {
+	background-color: #F8F8F8;
+	border: 1px solid #E7E7E7; 
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.about div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.profile-pic {
+	display: block;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.about div p {
+	text-align: center;
+}
+/*Project section*/
+#projects {
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+.caption {
+	text-align: center;
+}
+.thumbnail {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(212,212,212,1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(212,212,212,1);
+	box-shadow: 0px 0px 15px 0px rgba(212,212,212,1);
+}
+/*Contact section*/
+#contact {
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+.form-group {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+select, input, textarea {
+	font-size: 16px !important;
+}
+/*Links section*/
+.btn-link img {
+	background-color: black;
+	width: 45px;
+	height: 45px;
+	object-fit: cover;
+
+}
+.btn-link:hover {
+	background-color: silver;
+}
+/*Extra*/
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+	body {
+		padding-left: 15%;
+		padding-right: 15%;
+	} 	
+	.about div p {
+		text-align: left;
+	}
+	
+}
+@media (min-width: 1200px) {
+}	
